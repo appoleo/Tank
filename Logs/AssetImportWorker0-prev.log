@@ -1,0 +1,154 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/wangchendong/UnityProjects/Tank
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52844
+Successfully changed project path to: /Users/wangchendong/UnityProjects/Tank
+/Users/wangchendong/UnityProjects/Tank
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 30.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/wangchendong/UnityProjects/Tank/Assets
+GfxDevice: creating device client; threaded=0
+2021-01-17 17:32:21.846 Unity[5318:69574] (null) preferred device: Apple M1 (high power)
+2021-01-17 17:32:21.846 Unity[5318:69574] Metal devices available: 1
+2021-01-17 17:32:21.846 Unity[5318:69574] 0: Apple M1 (high power)
+2021-01-17 17:32:21.846 Unity[5318:69574] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56318
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/2020.2.1f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000413 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.592 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000324 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.700 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1787 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.6 MB.
+System memory in use after: 140.6 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2226.
+Total: 2.254125 ms (FindLiveObjects: 0.200875 ms CreateObjectMapping: 0.038666 ms MarkObjects: 1.908625 ms  DeleteObjects: 0.105333 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GameResource
+  artifactKey: Guid(99a6935ba72f0c04e91aa5406607730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource using Guid(99a6935ba72f0c04e91aa5406607730a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e473ff1d3c5ef2f387671583dbbf9e0') in 0.005702 seconds
+  Import took 0.008075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20447.321782 seconds.
+  path: Assets/GameResource/AudioSource/Die.aif
+  artifactKey: Guid(41660860d05dbdf49b3c8da6332a4ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/AudioSource/Die.aif using Guid(41660860d05dbdf49b3c8da6332a4ef9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb63111f088d04226f0005082cde8ef') in 0.666437 seconds
+  Import took 0.671456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.300238 seconds.
+  path: Assets/GameResource/AudioSource/EngineDriving.aif
+  artifactKey: Guid(9e338ba8c87e0ba4aaf9d88ae7141118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/AudioSource/EngineDriving.aif using Guid(9e338ba8c87e0ba4aaf9d88ae7141118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3e4c7f671e306b8b2feb1a11d4ad19') in 0.011748 seconds
+  Import took 0.014339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 341.015555 seconds.
+  path: Assets/GameResource/Graphics/BackGround.jpg
+  artifactKey: Guid(7a1e9cf1fc0ff7744b5a1e6fc501d7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/BackGround.jpg using Guid(7a1e9cf1fc0ff7744b5a1e6fc501d7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42243852102e8d9d28376fdd5a5845e0') in 0.507275 seconds
+  Import took 0.510036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.409223 seconds.
+  path: Assets/GameResource/Graphics/Born.bmp
+  artifactKey: Guid(83edbfb8684dd084c9c1b5a05accb675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Born.bmp using Guid(83edbfb8684dd084c9c1b5a05accb675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e753e8f5cac1faf9f697e6ba16ce79d4') in 0.421015 seconds
+  Import took 0.423991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.497224 seconds.
+  path: Assets/GameResource/Graphics/Explode1.bmp
+  artifactKey: Guid(59551ce7c322bac4e897e164060ef7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Explode1.bmp using Guid(59551ce7c322bac4e897e164060ef7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afaf529837f0644d99fabdc7a11a5e19') in 0.007873 seconds
+  Import took 0.011182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.004783 seconds.
+  path: Assets/GameResource/Graphics/Flag.bmp
+  artifactKey: Guid(3b3425979a79d8646bcf1970dbfcbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Flag.bmp using Guid(3b3425979a79d8646bcf1970dbfcbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa823ef480a005f797d005837dc38649') in 0.007364 seconds
+  Import took 0.010703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1081.598921 seconds.
+  path: Assets/GameResource/Graphics/Bullect.bmp
+  artifactKey: Guid(156edf117960b9b40955ebbabaa99937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Bullect.bmp using Guid(156edf117960b9b40955ebbabaa99937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a6391dd35da046c40c03b9007465d0') in 0.016541 seconds
+  Import took 0.020237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.231606 seconds.
+  path: Assets/GameResource/Graphics/Player2.bmp
+  artifactKey: Guid(55b011970cb6c1441be9af335e238fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Player2.bmp using Guid(55b011970cb6c1441be9af335e238fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a58f701598cea8dc61cca00a4043e17a') in 0.063967 seconds
+  Import took 0.067446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.163591 seconds.
+  path: Assets/GameResource/AudioSource/GetBonus.wav
+  artifactKey: Guid(78ea59a2d35da144c983105394d01c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/AudioSource/GetBonus.wav using Guid(78ea59a2d35da144c983105394d01c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bdb1400316258563831c74a2920074') in 0.465336 seconds
+  Import took 0.468293 seconds .
+
