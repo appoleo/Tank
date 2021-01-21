@@ -9,6 +9,8 @@ public class Heart : MonoBehaviour
 
     public Sprite brokenSprite;
 
+    public GameObject explosionPrefab;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -24,5 +26,6 @@ public class Heart : MonoBehaviour
     public void Die()
     {
         sr.sprite = brokenSprite;
+        Instantiate(explosionPrefab, transform.position, transform.rotation);
     }
 }

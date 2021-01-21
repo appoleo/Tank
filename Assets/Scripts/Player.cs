@@ -53,7 +53,7 @@ public class Player : MonoBehaviour
             }
         }
         // 攻击CD
-        if (timeVal > 0.4f)
+        if (timeVal > 0.1f)
         {
             Attack();
         }

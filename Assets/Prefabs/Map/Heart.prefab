@@ -123,3 +123,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brokenSprite: {fileID: 21300012, guid: 529e000d42d32de49bc475716ba7ae37, type: 3}
+  explosionPrefab: {fileID: 4243818453142040027, guid: 3240935fb381645e0ba873710f66b01f, type: 3}

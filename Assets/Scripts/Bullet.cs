@@ -32,14 +32,21 @@ public class Bullet : MonoBehaviour
                 {
                     // 调用坦克死亡方法
                     collision.SendMessage("Die");
+                    Destroy(gameObject);
                 }
                 break;
             case "Heart":
                 // 调用心脏死亡方法
                 collision.SendMessage("Die");
+                Destroy(gameObject);
                 break;
             case "Enemy":
-
+                if (isPlayerBullet)
+                {
+                    // 调用坦克死亡方法
+                    collision.SendMessage("Die");
+                    Destroy(gameObject);
+                }
                 break;
             case "Wall":
                 Destroy(collision.gameObject);
