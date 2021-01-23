@@ -55,6 +55,10 @@ public class Bullet : MonoBehaviour
             case "Barrier":
                 Destroy(gameObject);
                 break;
+            case "Bullet":
+                Destroy(gameObject);
+                Destroy(collision.gameObject);
+                break;
             default:
                 break;
         }

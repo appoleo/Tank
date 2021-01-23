@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300008, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
+  m_Sprite: {fileID: 21300040, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -146,10 +146,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   tankSprite:
-  - {fileID: 21300002, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
-  - {fileID: 21300016, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
-  - {fileID: 21300032, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
-  - {fileID: 21300048, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
+  - {fileID: 21300008, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
+  - {fileID: 21300024, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
+  - {fileID: 21300040, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
+  - {fileID: 21300056, guid: 3348c3d1a93bce84fba2264f6a8458f4, type: 3}
   bulletPrefab: {fileID: 107804207090392252, guid: 7a95d5d1b8f70422ebbbf1cba43c9105, type: 3}
   explosionPrefab: {fileID: 4243818453142040027, guid: 3240935fb381645e0ba873710f66b01f, type: 3}
   defendEffectPrefab: {fileID: 0}

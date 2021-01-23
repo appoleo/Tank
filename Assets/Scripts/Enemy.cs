@@ -76,9 +76,18 @@ public class Enemy : MonoBehaviour
         {
             // up:lift:right:down = 3:4:4:5
             int num = Random.Range(0, 16);
-            v = num <= 2 ? 1 : num <= 7 ? -1 : 0;
-            h = num >= 12 ? 1 : num >= 8 ? -1 : 0;
-            changeDirectionTimeVal = 0;
+            int vNew = num <= 2 ? 1 : num <= 7 ? -1 : 0;
+            int hNew = num >= 12 ? 1 : num >= 8 ? -1 : 0;
+            if (vNew == v && hNew == h)
+            {
+                changeDirectionTimeVal = 3.4f;
+            }
+            else
+            {
+                v = vNew;
+                h = hNew;
+                changeDirectionTimeVal = 0;
+            }
         }
         else
         {
@@ -125,5 +134,14 @@ public class Enemy : MonoBehaviour
         Instantiate(explosionPrefab, transform.position, transform.rotation);
         // 死亡
         Destroy(gameObject);
+    }
+
+    // 当发生碰撞，直接转向
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.transform.tag == "Enemy")
+        {
+            changeDirectionTimeVal = 4;
+        }
     }
 }
