@@ -13,7 +13,7 @@ public class Enemy : MonoBehaviour
     // 改变坦克行进方向的时间计时器
     private float changeDirectionTimeVal = 3.4f;
 
-    private float v;
+    private float v = -1;
     private float h;
 
     // 坦克的方向，上右下左
@@ -134,6 +134,7 @@ public class Enemy : MonoBehaviour
         Instantiate(explosionPrefab, transform.position, transform.rotation);
         // 死亡
         Destroy(gameObject);
+        PlayerManage.Instance.score++;
     }
 
     // 当发生碰撞，直接转向

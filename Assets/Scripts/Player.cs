@@ -26,6 +26,9 @@ public class Player : MonoBehaviour
     // 保护预置体
     public GameObject defendEffectPrefab;
 
+    public AudioSource audioSource;
+    public AudioClip[] tankAudioArray;
+
     private void Awake()
     {
         // 获取组件的引用，初始化
@@ -35,7 +38,7 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -52,6 +55,15 @@ public class Player : MonoBehaviour
                 defendEffectPrefab.SetActive(false);
             }
         }
+    }
+
+    private void FixedUpdate()
+    {
+        if (PlayerManage.Instance.isDefeat)
+        {
+            return;
+        }
+        Move();
         // 攻击CD
         if (timeVal > 0.1f)
         {
@@ -59,13 +71,8 @@ public class Player : MonoBehaviour
         }
         else
         {
-            timeVal += Time.deltaTime;
+            timeVal += Time.fixedDeltaTime;
         }
-    }
-
-    private void FixedUpdate()
-    {
-        Move();
     }
 
     /// <summary>
@@ -98,6 +105,15 @@ public class Player : MonoBehaviour
             bulletEularAngles = new Vector3(0, 0, -90);
         }
 
+        if (Mathf.Abs(h) > 0.05)
+        {
+            audioSource.clip = tankAudioArray[1];
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+        }
+
         // 禁止同时两个方向移动
         if (h != 0)
         {
@@ -116,6 +132,23 @@ public class Player : MonoBehaviour
             sr.sprite = tankSprite[0];
             bulletEularAngles = new Vector3(0, 0, 0);
         }
+
+        if (Mathf.Abs(v) > 0.05)
+        {
+            audioSource.clip = tankAudioArray[1];
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+        }
+        else
+        {
+            audioSource.clip = tankAudioArray[0];
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+            }
+        }
     }
 
     /// <summary>
@@ -131,5 +164,7 @@ public class Player : MonoBehaviour
         Instantiate(explosionPrefab, transform.position, transform.rotation);
         // 死亡
         Destroy(gameObject);
+        PlayerManage.Instance.isdead = true;
+        PlayerManage.Instance.lifeValue--;
     }
 }

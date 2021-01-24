@@ -10,10 +10,12 @@ public class Bullet : MonoBehaviour
     // 是否是玩家的子弹
     public bool isPlayerBullet;
 
+    public AudioClip bitAudio;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -53,6 +55,10 @@ public class Bullet : MonoBehaviour
                 Destroy(gameObject);
                 break;
             case "Barrier":
+                if (isPlayerBullet)
+                {
+                    AudioSource.PlayClipAtPoint(bitAudio, transform.position);
+                }
                 Destroy(gameObject);
                 break;
             case "Bullet":

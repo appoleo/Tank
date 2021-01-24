@@ -10,7 +10,7 @@ public class MapCreation : MonoBehaviour
     // 地图上所有可初始化地图的点位
     private Vector3[] vectorArray;
     // 敌人产生的点位
-    private Vector3[] enemyPositionArray = { new Vector3(-13, 8, 0), new Vector3(-7, 8, 0), new Vector3(0, 8, 0), new Vector3(7, 8, 0), new Vector3(13, 8, 0) };
+    private Vector3[] enemyPositionArray = { new Vector3(-10, 8, 0), new Vector3(0, 8, 0), new Vector3(10, 8, 0) };
 
     private void Awake()
     {
@@ -49,7 +49,7 @@ public class MapCreation : MonoBehaviour
 
     private void InitOneEnemy()
     {
-        CreateItem(item[3], enemyPositionArray[Random.Range(0, 5)], Quaternion.identity);
+        CreateItem(item[3], enemyPositionArray[Random.Range(0, 3)], Quaternion.identity);
     }
 
     private void InitEnemy()
@@ -64,9 +64,13 @@ public class MapCreation : MonoBehaviour
     {
         for (int i = 0; i < vectorArray.Length; i++)
         {
-            // 墙 障碍 河流 草   9:2:3:4
-            int num = Random.Range(0, 18);
-            int index = num >= 16 ? 2 : num >= 13 ? 4 : num >= 9 ? 5 : 1;
+            if (Random.Range(0, 3) != 0)
+            {
+                continue;
+            }
+            // 墙 障碍 河流 草   10:2:1:2
+            int num = Random.Range(0, 15);
+            int index = num >= 13 ? 2 : num == 12 ? 4 : num >= 10 ? 5 : 1;
             // 洗牌
             int r = Random.Range(i, vectorArray.Length);
             if (Random.Range(0, 8) == 0)
@@ -83,7 +87,7 @@ public class MapCreation : MonoBehaviour
     private void InitVectorArray()
     {
         List<Vector3> vectorList = new List<Vector3>();
-        for (int i = -12; i <= 12; i++)
+        for (int i = -9; i <= 9; i++)
         {
             for (int j = -5; j <= 7; j++)
             {
@@ -111,7 +115,7 @@ public class MapCreation : MonoBehaviour
     private void InitAirBarrier()
     {
         // 上/下
-        for (int i = -14; i <= 14; i++)
+        for (int i = -11; i <= 11; i++)
         {
             CreateItem(item[6], new Vector3(i, 9, 0), Quaternion.identity);
             CreateItem(item[6], new Vector3(i, -9, 0), Quaternion.identity);
@@ -119,8 +123,8 @@ public class MapCreation : MonoBehaviour
         // 左/右
         for (int i = -8; i <= 8; i++)
         {
-            CreateItem(item[6], new Vector3(-14, i, 0), Quaternion.identity);
-            CreateItem(item[6], new Vector3(14, i, 0), Quaternion.identity);
+            CreateItem(item[6], new Vector3(-11, i, 0), Quaternion.identity);
+            CreateItem(item[6], new Vector3(11, i, 0), Quaternion.identity);
         }
     }
 }
