@@ -56,16 +56,16 @@
     <Analyzer Include="/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Analyzers/Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/Scripts/MainUI.cs" />
     <Compile Include="Assets/Scripts/Born.cs" />
     <Compile Include="Assets/Scripts/Enemy.cs" />
     <Compile Include="Assets/Scripts/Bullet.cs" />
     <Compile Include="Assets/Scripts/Explosion.cs" />
+    <Compile Include="Assets/Scripts/PlayerManage.cs" />
+    <Compile Include="Assets/Scripts/Option.cs" />
     <Compile Include="Assets/Scripts/MapCreation.cs" />
     <Compile Include="Assets/Scripts/Player.cs" />
     <Compile Include="Assets/Scripts/Heart.cs" />
-    <Compile Include="Assets/Scripts/PlayerManage.cs" />
-    <Compile Include="Assets/Scripts/Option.cs" />
-    <Compile Include="Assets/Scripts/MainUI.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

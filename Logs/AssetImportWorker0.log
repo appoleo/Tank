@@ -1,0 +1,194 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/2020.2.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/wangchendong/UnityProjects/Tank
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53886
+Successfully changed project path to: /Users/wangchendong/UnityProjects/Tank
+/Users/wangchendong/UnityProjects/Tank
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 32.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path /Applications/Unity/2020.2.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/wangchendong/UnityProjects/Tank/Assets
+GfxDevice: creating device client; threaded=0
+2021-01-25 13:30:37.423 Unity[31428:5245449] (null) preferred device: Apple M1 (high power)
+2021-01-25 13:30:37.423 Unity[31428:5245449] Metal devices available: 1
+2021-01-25 13:30:37.423 Unity[31428:5245449] 0: Apple M1 (high power)
+2021-01-25 13:30:37.423 Unity[31428:5245449] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/2020.2.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/2020.2.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56428
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/2020.2.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/2020.2.1f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002399 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.041 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 31.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.929 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/2020.2.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 150.1 MB.
+System memory in use after: 150.1 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2240.
+Total: 2.240042 ms (FindLiveObjects: 0.148625 ms CreateObjectMapping: 0.035334 ms MarkObjects: 1.939417 ms  DeleteObjects: 0.115833 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/GameResource/Graphics/UIGameOver.bmp
+  artifactKey: Guid(254c67df951808c4e8d95fce9cccdf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/UIGameOver.bmp using Guid(254c67df951808c4e8d95fce9cccdf71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc37ea78a118c18414e017fc10464966') in 0.720610 seconds
+  Import took 0.724712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/GameResource/Graphics/Bullect.bmp
+  artifactKey: Guid(156edf117960b9b40955ebbabaa99937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Bullect.bmp using Guid(156edf117960b9b40955ebbabaa99937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a79e044e309af9fe281763536697d7') in 0.023197 seconds
+  Import took 0.026465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001726 seconds.
+  path: Assets/GameResource/Graphics/Enemys.bmp
+  artifactKey: Guid(3348c3d1a93bce84fba2264f6a8458f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Enemys.bmp using Guid(3348c3d1a93bce84fba2264f6a8458f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57b0a84c053e5800061ba0f9a2a39f6') in 0.102849 seconds
+  Import took 0.106313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/GameResource/Graphics/BackGround.jpg
+  artifactKey: Guid(7a1e9cf1fc0ff7744b5a1e6fc501d7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/BackGround.jpg using Guid(7a1e9cf1fc0ff7744b5a1e6fc501d7e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea63c63edc657d8d2b05ab678f8cc0f') in 0.445703 seconds
+  Import took 0.448250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/GameResource/Graphics/Shield.bmp
+  artifactKey: Guid(70b916daf54e6794a9ea2551f199f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Shield.bmp using Guid(70b916daf54e6794a9ea2551f199f9b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c666d08ad9fd620f8a73c0954d0211') in 0.008591 seconds
+  Import took 0.011944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002833 seconds.
+  path: Assets/GameResource/Graphics/Born.bmp
+  artifactKey: Guid(83edbfb8684dd084c9c1b5a05accb675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Born.bmp using Guid(83edbfb8684dd084c9c1b5a05accb675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed499b3fb0d76aa4b2230dc8ae92b3a') in 0.017037 seconds
+  Import took 0.020339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/GameResource/Graphics/Flag.bmp
+  artifactKey: Guid(3b3425979a79d8646bcf1970dbfcbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Flag.bmp using Guid(3b3425979a79d8646bcf1970dbfcbc2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5106737a433ea85e1ca6b458a413e683') in 0.005991 seconds
+  Import took 0.008666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/GameResource/Graphics/Explode1.bmp
+  artifactKey: Guid(59551ce7c322bac4e897e164060ef7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Explode1.bmp using Guid(59551ce7c322bac4e897e164060ef7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd8a87bd2f42119c9a83535a5567ffe7') in 0.007701 seconds
+  Import took 0.010635 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/GameResource/Graphics/Title.bmp
+  artifactKey: Guid(476bd825b3b97f24ea036630861f00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Title.bmp using Guid(476bd825b3b97f24ea036630861f00df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '981ab74c3f5628f5bd3ce0b27f2f4ada') in 0.009902 seconds
+  Import took 0.012677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/GameResource/Graphics/Bonus.bmp
+  artifactKey: Guid(d532de5e6df7ce948a5f9d07897aa865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Bonus.bmp using Guid(d532de5e6df7ce948a5f9d07897aa865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43fbdf8892f2a9593434b60b2f9f6316') in 0.016203 seconds
+  Import took 0.019052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/GameResource/Graphics/Player1.bmp
+  artifactKey: Guid(c3a4b3c783ddce7438622efbc82d5538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Player1.bmp using Guid(c3a4b3c783ddce7438622efbc82d5538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d7532c6d59b826c88c973478b6bf762') in 0.051289 seconds
+  Import took 0.054072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/GameResource/Graphics/Map.bmp
+  artifactKey: Guid(529e000d42d32de49bc475716ba7ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Map.bmp using Guid(529e000d42d32de49bc475716ba7ae37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1559fbd615b852a0c543f6925ff14c96') in 0.023435 seconds
+  Import took 0.026377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/GameResource/Graphics/Player2.bmp
+  artifactKey: Guid(55b011970cb6c1441be9af335e238fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Player2.bmp using Guid(55b011970cb6c1441be9af335e238fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511a022211bb3a665264d19ed10a0f34') in 0.051032 seconds
+  Import took 0.053761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/GameResource/Graphics/Explode2.bmp
+  artifactKey: Guid(a00139d6944916f468fb0f5f0df34bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/Explode2.bmp using Guid(a00139d6944916f468fb0f5f0df34bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e087e0745c979f779c55bee5f1d3c2d9') in 0.006401 seconds
+  Import took 0.009163 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/GameResource/Graphics/UIView.bmp
+  artifactKey: Guid(b7522ab025b08e14a83b243bd6505ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameResource/Graphics/UIView.bmp using Guid(b7522ab025b08e14a83b243bd6505ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f174224c29305744817ae83152ef96') in 0.013269 seconds
+  Import took 0.016021 seconds .
+

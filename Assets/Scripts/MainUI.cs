@@ -17,6 +17,6 @@ public class MainUI : MonoBehaviour
     void Update()
     {
         //transform.Translate(Vector3.up * moveSpeed * Time.deltaTime, Space.World);
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, 460, 0), moveSpeed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x, 432, 0), moveSpeed * Time.deltaTime);
     }
 }
